@@ -11,7 +11,7 @@
 <body>
 
     <!-- Header -->
-     <header>
+      <header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -44,7 +44,62 @@
               </div>
             </div>
           </nav>
-     </header>
+      </header>
+
+      <!-- end header -->
+
+
+      <!-- main -->
+
+      <main>
+          <div class="container-fluid p-5 mx-5">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="flex justify-between">
+                  <div>
+                    <h5 class="fs-2">Catalogo Libri</h5>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-primary">Aggiungi libro</button>
+                  </div>
+                </div>
+
+        <!-- table -->
+                <table class="table my-4">
+                  <thead>
+                    <tr>
+                      <th class="title-table" scope="col">Titolo</th>
+                      <th scope="col">Data prestito</th>
+                      <th scope="col">Stato</th>
+                      <th class="last-col-table" scope="col">Azioni</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+          <!-- end table -->
+              </div>
+              <div class="col-lg-4"></div>
+            </div>
+          </div>
+      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

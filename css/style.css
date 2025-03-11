@@ -1,0 +1,16 @@
+
+
+.logo img{
+    width: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h6{
+    padding-left: 20px;
+    color: white;
+    padding-top: 10px;
+}

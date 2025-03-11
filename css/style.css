@@ -9,8 +9,6 @@
     align-items: center;
 }
 
-.logo h6{
-    padding-left: 20px;
+.navbar-toggler i{
     color: white;
-    padding-top: 10px;
 }
